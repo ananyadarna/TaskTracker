@@ -2,6 +2,12 @@
 
 A feature-rich, high-fidelity **Task Management Web Application** built using the MERN stack (MongoDB, Express, React, Node.js). This project demonstrates professional full-stack engineering practices, robust RESTful API design, database modeling, and a polished, responsive user interface.
 
+### 🔗 Live Links
+* **Live Demo (Frontend)**: [https://task-tracker-iota-seven.vercel.app](https://task-tracker-iota-seven.vercel.app)
+* **API Endpoint (Backend)**: [https://tasktracker-tyu0.onrender.com](https://tasktracker-tyu0.onrender.com)
+
+---
+
 ## 🚀 Key Highlights & Engineering Decisions
 
 * **Production-Ready Architecture**: Built as a clean monorepo separating `frontend` and `backend` services.
