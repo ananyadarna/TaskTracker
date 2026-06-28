@@ -39,6 +39,16 @@ A feature-rich, high-fidelity **Task Management Web Application** built using th
 
 ---
 
+## 🌐 Deployment
+
+The application is deployed publicly using the following platforms:
+
+* **Frontend**: Hosted on [Vercel](https://vercel.com/) (configured with Vite build presets and continuous deployment).
+* **Backend**: Hosted on [Render](https://render.com/) (deployed as a Node.js Web Service).
+* **Database**: Hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Free Tier M0 cluster with whitelisted access for public servers).
+
+---
+
 ## 🛠️ Tech Stack & Tools
 
 * **Frontend**: React.js, Vite, Vanilla CSS (CSS variables, Glassmorphism, CSS Grid & Flexbox)
@@ -106,5 +116,5 @@ All API endpoints are prefixed with `/api`.
 | **GET** | `/tasks/stats` | Fetch real-time task statistics (completion rates, priorities) |
 | **GET** | `/activities` | Fetch the 10 most recent activity logs |
 | **POST** | `/tasks` | Create a new task |
-| **PUT** | `/tasks/:id` | Update a task's details, status, or subtasks |
+| **PUT** | `/api/tasks/:id` | Update a task's details, status, or subtasks |
 | **DELETE** | `/api/tasks/:id` | Delete a task |
